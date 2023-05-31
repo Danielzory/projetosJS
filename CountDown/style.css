@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('travel.jpg.jpg');
+    background-repeat:repeat-x;
+    
+    color: rgb(29, 2, 2);
+    font-family:'Bebas Neue', sans-serif;
+    user-select: none;   
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center; 
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.266);
+}
+
+#title{
+    font-size: calc(10px + 2vw);
+}
+
+#title p{
+    font-size: calc(8px + 2vw);
+}
+
+#countdown{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+#countdown h1{
+    font-size: calc(10px + 7vw);
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+input{
+    background-color: rgba(245, 245, 245, 0.24);
+    border: solid 3px rgba(0, 0, 0, 0.693);
+    padding: 5px;
+    cursor: pointer;
+}
+
+input:hover{
+    background-color: rgba(0, 0, 0, 0.266);
+    color: whitesmoke;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.266);
+    text-align: center;
+}
